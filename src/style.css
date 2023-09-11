@@ -1,0 +1,53 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.passwords-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: input;
+  max-width: 800px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.label {
+  width: 2em;
+}
+
+.text-input {
+  padding: 0 16px;
+  height: 48px;
+  margin-right: 1em;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+
+.show-hide-toggle {
+  position: relative;
+  display: inline-flex;
+}
+
+.checkbox-input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.icon-svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
